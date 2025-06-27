@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kalbasit/ncps/testdata"
+	"github.com/ahauserv/ncps/testdata"
 )
 
 func TestNewTestServer(t *testing.T) {

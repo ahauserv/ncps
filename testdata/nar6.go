@@ -3,8 +3,8 @@ package testdata
 import (
 	"path/filepath"
 
-	"github.com/kalbasit/ncps/pkg/helper"
-	"github.com/kalbasit/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/nar"
 )
 
 // Nar6 is the nar representing hello from release-22.04 with its Deriver made

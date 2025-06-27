@@ -1,4 +1,4 @@
-module github.com/kalbasit/ncps
+module github.com/ahauserv/ncps
 
 go 1.24.3
 

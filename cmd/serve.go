@@ -15,12 +15,12 @@ import (
 	"github.com/urfave/cli/v3"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/kalbasit/ncps/pkg/cache"
-	"github.com/kalbasit/ncps/pkg/cache/upstream"
-	"github.com/kalbasit/ncps/pkg/database"
-	"github.com/kalbasit/ncps/pkg/helper"
-	"github.com/kalbasit/ncps/pkg/server"
-	"github.com/kalbasit/ncps/pkg/storage/local"
+	"github.com/ahauserv/ncps/pkg/cache"
+	"github.com/ahauserv/ncps/pkg/cache/upstream"
+	"github.com/ahauserv/ncps/pkg/database"
+	"github.com/ahauserv/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/server"
+	"github.com/ahauserv/ncps/pkg/storage/local"
 )
 
 // ErrCacheMaxSizeRequired is returned if --cache-lru-schedule was given but not --cache-max-size.

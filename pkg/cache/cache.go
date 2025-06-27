@@ -23,10 +23,10 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/kalbasit/ncps/pkg/cache/upstream"
-	"github.com/kalbasit/ncps/pkg/database"
-	"github.com/kalbasit/ncps/pkg/nar"
-	"github.com/kalbasit/ncps/pkg/storage"
+	"github.com/ahauserv/ncps/pkg/cache/upstream"
+	"github.com/ahauserv/ncps/pkg/database"
+	"github.com/ahauserv/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/storage"
 )
 
 var (
@@ -48,7 +48,7 @@ var (
 
 const (
 	recordAgeIgnoreTouch = 5 * time.Minute
-	tracerName           = "github.com/kalbasit/ncps/pkg/cache"
+	tracerName           = "github.com/ahauserv/ncps/pkg/cache"
 )
 
 // Cache represents the main cache service.

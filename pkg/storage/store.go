@@ -8,7 +8,7 @@ import (
 	"github.com/nix-community/go-nix/pkg/narinfo"
 	"github.com/nix-community/go-nix/pkg/narinfo/signature"
 
-	"github.com/kalbasit/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/nar"
 )
 
 var (

@@ -33,7 +33,7 @@
           };
 
           ldflags = [
-            "-X github.com/kalbasit/ncps/cmd.Version=${version}"
+            "-X github.com/ahauserv/ncps/cmd.Version=${version}"
           ];
 
           subPackages = [ "." ];
@@ -53,7 +53,7 @@
 
           meta = {
             description = "Nix binary cache proxy service";
-            homepage = "https://github.com/kalbasit/ncps";
+            homepage = "https://github.com/ahauserv/ncps";
             license = lib.licenses.mit;
             mainProgram = "ncps";
             maintainers = [ lib.maintainers.kalbasit ];

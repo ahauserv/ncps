@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kalbasit/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/helper"
 )
 
 func TestNarInfoURLPath(t *testing.T) {

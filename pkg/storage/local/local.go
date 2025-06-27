@@ -16,9 +16,9 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/kalbasit/ncps/pkg/helper"
-	"github.com/kalbasit/ncps/pkg/nar"
-	"github.com/kalbasit/ncps/pkg/storage"
+	"github.com/ahauserv/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/storage"
 )
 
 var (
@@ -38,7 +38,7 @@ var (
 const (
 	fileMode   = 0o400
 	dirMode    = 0o700
-	tracerName = "github.com/kalbasit/ncps/pkg/storage/local"
+	tracerName = "github.com/ahauserv/ncps/pkg/storage/local"
 )
 
 // Store represents a local store and implements storage.Store.

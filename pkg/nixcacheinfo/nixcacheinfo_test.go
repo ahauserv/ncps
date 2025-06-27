@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kalbasit/ncps/pkg/nixcacheinfo"
+	"github.com/ahauserv/ncps/pkg/nixcacheinfo"
 )
 
 func TestParse(t *testing.T) {

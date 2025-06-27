@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/kalbasit/ncps/cmd"
+	"github.com/ahauserv/ncps/cmd"
 )
 
 func main() {

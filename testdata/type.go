@@ -1,6 +1,6 @@
 package testdata
 
-import "github.com/kalbasit/ncps/pkg/nar"
+import "github.com/ahauserv/ncps/pkg/nar"
 
 type Entry struct {
 	NarInfoHash string

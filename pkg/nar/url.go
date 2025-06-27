@@ -9,7 +9,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/kalbasit/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/helper"
 )
 
 var (

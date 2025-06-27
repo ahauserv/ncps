@@ -29,7 +29,7 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 
-	"github.com/kalbasit/ncps/pkg/otelzerolog"
+	"github.com/ahauserv/ncps/pkg/otelzerolog"
 )
 
 // Version defines the version of the binary, and is meant to be set with ldflags at build time.

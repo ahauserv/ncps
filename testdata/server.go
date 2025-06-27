@@ -11,7 +11,7 @@ import (
 
 	"github.com/klauspost/compress/zstd"
 
-	"github.com/kalbasit/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/helper"
 )
 
 type Server struct {

@@ -57,9 +57,9 @@
             "org.opencontainers.image.description" =
               "Nix binary cache proxy service -- with local caching and signing";
             "org.opencontainers.image.licenses" = "MIT";
-            "org.opencontainers.image.source" = "https://github.com/kalbasit/ncps";
+            "org.opencontainers.image.source" = "https://github.com/ahauserv/ncps";
             "org.opencontainers.image.title" = "ncps";
-            "org.opencontainers.image.url" = "https://github.com/kalbasit/ncps";
+            "org.opencontainers.image.url" = "https://github.com/ahauserv/ncps";
           };
         };
       };

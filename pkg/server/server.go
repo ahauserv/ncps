@@ -18,9 +18,9 @@ import (
 
 	otelchimetric "github.com/riandyrn/otelchi/metric"
 
-	"github.com/kalbasit/ncps/pkg/cache"
-	"github.com/kalbasit/ncps/pkg/nar"
-	"github.com/kalbasit/ncps/pkg/storage"
+	"github.com/ahauserv/ncps/pkg/cache"
+	"github.com/ahauserv/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/storage"
 )
 
 const (
@@ -41,7 +41,7 @@ const (
 WantMassQuery: 1
 Priority: 10`
 
-	tracerName = "github.com/kalbasit/ncps/pkg/server"
+	tracerName = "github.com/ahauserv/ncps/pkg/server"
 )
 
 // Server represents the main HTTP server.

@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kalbasit/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/nar"
 )
 
 func FuzzParseURL(f *testing.F) {

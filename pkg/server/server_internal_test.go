@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kalbasit/ncps/pkg/cache"
-	"github.com/kalbasit/ncps/pkg/database"
-	"github.com/kalbasit/ncps/pkg/storage/local"
-	"github.com/kalbasit/ncps/testhelper"
+	"github.com/ahauserv/ncps/pkg/cache"
+	"github.com/ahauserv/ncps/pkg/database"
+	"github.com/ahauserv/ncps/pkg/storage/local"
+	"github.com/ahauserv/ncps/testhelper"
 )
 
 const cacheName = "cache.example.com"

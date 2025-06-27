@@ -17,9 +17,9 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/kalbasit/ncps/pkg/helper"
-	"github.com/kalbasit/ncps/pkg/nar"
-	"github.com/kalbasit/ncps/pkg/nixcacheinfo"
+	"github.com/ahauserv/ncps/pkg/helper"
+	"github.com/ahauserv/ncps/pkg/nar"
+	"github.com/ahauserv/ncps/pkg/nixcacheinfo"
 )
 
 var (
@@ -42,7 +42,7 @@ var (
 	ErrSignatureValidationFailed = errors.New("signature validation has failed")
 )
 
-const tracerName = "github.com/kalbasit/ncps/pkg/cache/upstream"
+const tracerName = "github.com/ahauserv/ncps/pkg/cache/upstream"
 
 // Cache represents the upstream cache service.
 type Cache struct {

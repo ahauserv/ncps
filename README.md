@@ -37,7 +37,7 @@ ncps can be installed in several ways:
 
 <!--- **Pre-built binaries:**
 
-  - Download the latest release for your platform from the [release page](https://github.com/kalbasit/ncps/releases).
+  - Download the latest release for your platform from the [release page](https://github.com/ahauserv/ncps/releases).
   - Extract the binary and place it in your desired location.
   - Make it executable.-->
 
@@ -48,13 +48,13 @@ ncps can be installed in several ways:
   - Run the following command:
 
     ```bash
-    go install github.com/kalbasit/ncps@latest
+    go install github.com/ahauserv/ncps@latest
     ```
 
 - **Build from source:**
 
   - Ensure you have Go installed and configured.
-  - Clone the repository: `git clone https://github.com/kalbasit/ncps.git`
+  - Clone the repository: `git clone https://github.com/ahauserv/ncps.git`
   - Navigate to the root directory of ncps: `cd ncps`
   - Build the binary: `go build .`
 
