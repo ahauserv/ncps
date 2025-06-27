@@ -76,6 +76,13 @@ func New(ctx context.Context, u *url.URL, pubKeys []string) (Cache, error) {
 		Transport: &http.Transport{
 			// Disable automatic decompression
 			DisableCompression: true,
+			// NEW: respect the usual proxy environment variables
+			// (HTTP_PROXY, HTTPS_PROXY, NO_PROXY, etc.).
+			//
+			// This restores the behaviour of http.DefaultTransport,
+			// allowing ncps to run behind corporate or datacentre
+			// egress proxies without any further code changes.
+			Proxy: http.ProxyFromEnvironment,
 		},
 	}
 
